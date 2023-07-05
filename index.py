@@ -5,15 +5,15 @@ science = int(input('Please enter your marks for Science? '))
 
 avr= (bangla + english + math + science) / 4
 
-if avr < 40:
-    print('You are fail')
-elif avr > 40:
-    print('Your grade point is D')
-elif avr > 60:
-    print('Your grade point is C')
-elif avr > 70:
-    print('Your grade point is B')
+if avr > 90:
+    print('Your grade point is A+')
 elif avr > 80:
     print('Your grade point is A')
+elif avr > 70:
+    print('Your grade point is B')
+elif avr > 60:
+    print('Your grade point is C')
+elif avr > 40:
+    print('Your grade point is D')
 else:
-    print('Your grade point is A+')
+    print('You are fail')
